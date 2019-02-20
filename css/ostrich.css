@@ -8,5 +8,12 @@ html {
   right: 0;
 }
 
+@media (max-width:1196px){
+  #ostrich {
+    position: absolute;
+    top: -50px;
+  }
+  
+}
 /* Write your solution here */
 

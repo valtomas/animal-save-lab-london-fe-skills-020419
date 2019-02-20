@@ -16,6 +16,25 @@ html {
   position: absolute;
   top: 400px;
   right: 0;
+  
+}
+
+@media (min-width:406px) {
+#dolphin {
+  position: absolute;
+  top: -30px;
+  right:120px;
+  transform: rotate(0.5turn);
+}
+}
+
+@media (min-width:1090px) {
+#dolphin {
+  position: absolute;
+  top: 550px;
+  right:120px;
+  transform: rotate(1turn);
+}
 }
 
 /* Write your solution here */
