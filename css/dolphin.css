@@ -18,5 +18,22 @@ html {
   right: 0;
 }
 
+@media (min-width:406px) {
+#dolphin {
+  position: absolute;
+  top: -30px;
+  right:120px;
+  transform: rotate ;
+}
+}
+
+@media (min-width:1090px) {
+#dolphin {
+  position: absolute;
+  top: 550px;
+  right:120px;
+}
+}
+
 /* Write your solution here */
 
